@@ -1,0 +1,669 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+    outline: 0;
+
+    font-size: 1vw;
+    font-weight: 400;
+    font-family: 'Euclid Circular A', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color:#1e1e1e;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+
+button{
+    background: #0962E8;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 13.8194rem;
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2500rem;
+    line-height: 140%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 0.9722rem 0 1.0417rem 0;
+}
+
+body{
+    font-family: Roboto, serif;
+}
+
+.container{
+    max-width: 76.3889rem;
+    margin: 0 auto;
+    padding: 4.1667rem;
+    position: relative;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.header_item{
+    font-family: 'Euclid Circular A', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722rem;
+    line-height: 140%;
+    color: #29374E;
+    cursor: pointer;
+    margin: auto 0;
+}
+
+.header_item:first-child{
+    margin-right: 1.0417rem;
+}
+
+.header_item_active{
+    font-family: 'Euclid Circular A', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722rem;
+    line-height: 140%;
+    color: #0962E8;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 2px 4px;
+}
+
+.top{
+    width: 100vw;
+    height: 47.0833rem;
+    background: #CBECFF;
+    border-radius: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.img_bg_top{
+    background-image: url("img/top.png");
+    background-repeat: no-repeat;
+    background-position: 125%;
+    background-size: unset;
+}
+
+.preview_title_container{
+    display: flex;
+    align-items: center;
+}
+
+.preview_item{
+    font-family: 'Euclid Circular A', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.4444rem;
+    line-height: 130%;
+    color: #29374E;
+}
+
+.preview_item:first-child{
+    margin-right: 8px;
+}
+
+.preview_item_active{
+    color: #0962E8;
+    padding: 1px 12px 3px 12px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.preview_description{
+    font-family: 'Euclid Circular A', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5278rem;
+    line-height: 130%;
+    color: #29374E;
+    max-width: 26.6667rem;
+    margin-top: 0.7639rem;
+    margin-bottom: 2.6389rem;
+}
+
+.preview_container{
+    margin-top: 5.2778rem;
+}
+
+.our_advantages{
+    display: flex;
+    bottom: -35px;
+    position: absolute;
+    max-width: 980px;
+    justify-content: space-between;
+}
+
+.advantages_card{
+    background: #FFFFFF;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    padding: 22px 20px 30px 20px;
+    width: 100%;
+    margin-right: 1.3889rem;
+    justify-content: space-between;
+}
+
+.advantages_card_text{
+    font-family: 'Euclid Circular A', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.111rem;
+    line-height: 140%;
+    color: #29374E;
+    margin-right: 0.3472rem;
+    user-select: none;
+}
+
+.advantages_card:last-child{
+    margin-right: 0;
+}
+
+.icon_bg{
+    padding: 10px;
+    background: #EFF9FF;
+    border-radius: 9999px;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.preview_img_container{
+    position: absolute;
+}
+
+.preview_img{
+    height: 34.5833rem;
+    width: 37.3611rem;
+}
+
+.preview_img_container{
+    display: none;
+}
+
+.advantages_cards_mob{
+    display: flex;
+}
+
+.advantages_cards_mob:first-child{
+    margin-right: 1.3889rem;
+}
+
+.main_title{
+    font-family: 'Euclid Circular A', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.6389rem;
+    line-height: 130%;
+    color: #29374E;
+    text-align: center;
+}
+
+.main_content_container{
+    margin-top: 6.2500rem;
+}
+.main_subtitle{
+    color: #0962E8;
+}
+
+.situations_container{
+    display: flex;
+    margin-top: 3.0556rem;
+}
+
+.situations_card{
+    display: flex;
+    background: #E9F6FF;
+    border-radius: 30px;
+    padding: 2.5694rem 0 0 1.3889rem;
+    width: 100%;
+    max-width: 34.8611rem;
+    user-select: none;
+}
+
+.situations_card:first-child{
+    margin-right: 0.6944rem;
+}
+
+.situations_title{
+    font-family: 'Euclid Circular A', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3889rem;
+    line-height: 140%;
+    color: #000000;
+    max-width: 13.9583rem;
+}
+
+.situations_description{
+    font-family: 'Euclid Circular A', sans-serif;
+    margin-top: 0.8333rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722rem;
+    line-height: 140%;
+    color: #000000;
+}
+.situations_img_container{
+    margin-bottom: -8px;
+}
+.research_img{
+    width: 15.1389rem;
+    height: 20.2083rem;
+    margin-right: 13px;
+}
+.robo_img{
+    width: 15.1389rem;
+    height: 20.2083rem;
+    margin-right: 0px;
+}
+
+.main_title_mob{
+    display: none;
+}
+
+.main_title_v{
+    text-align: left;
+}
+
+.advantages_cards_mob_value:first-child{
+    margin-right: 0;
+}
+
+.our_advantages_value{
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: normal;
+    max-width: 60.00rem;
+    bottom: 0;
+    margin-top: 0.6944rem;
+}
+
+.advantages_card_value{
+    flex-direction: column;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    justify-content: normal;
+    margin-right: 0;
+}
+
+.value_title_container{
+    width: 100%;
+}
+
+.value_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_bg_value{
+    order: 1;
+}
+
+.advantages_card_text_value{
+    margin-top: 7px;
+    order: 2;
+    font-size: 0.9722rem;
+    width: 14.0278rem;
+    user-select: none;
+}
+
+.situations_description_value{
+    margin-top: 1.4583rem;
+    margin-bottom: 2.5694rem;
+    max-width: 29.125rem;
+}
+
+@media (max-width: 450px) {
+    * {
+        font-size: 3.84vw;
+    }
+
+    .container{
+        padding: 24px 16px 0 16px;
+    }
+
+    .our_advantages{
+        margin-top: 4.9778rem !important;
+        margin-bottom: 1.4222rem;
+        bottom: 0;
+    }
+
+    .advantages_cards_mob{
+        display: flex;
+        justify-content: space-between;
+        max-width: 48.78395rem;
+        width: 100%;
+        margin-right: 0 !important;
+    }
+
+    .advantages_card{
+        max-width: 23.3252rem !important;
+        flex-direction: column;
+        justify-content: normal;
+        padding: 3.1290rem  1.7067rem 2.2756rem 2.56rem;
+        margin-right: 2.1334rem !important;
+        margin-bottom: 2.8445rem !important;
+    }
+    .advantages_card:nth-child(2){
+        margin-right: 0 !important;
+    }
+
+    .advantages_card_text{
+        margin-top: 7px;
+        font-size: 1.9911rem;
+        max-width: 18.667rem !important;
+        order: 2;
+    }
+
+    .icon_bg{
+        order: 1;
+        margin-top: -3.875rem !important;
+    }
+
+    .top{
+        max-height: none;
+    }
+
+    .preview_img{
+        height: 69rem;
+        width: 76.561rem;
+    }
+
+    .preview_img_container{
+        margin-left: -4.0556rem !important;
+        margin-top: -0.6944rem;
+    }
+
+    button{
+        max-width: none;
+        width: 100%;
+        border-radius: 8px;
+        font-family: 'Euclid Circular A', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2500rem;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 14px 33px 15px;
+    }
+
+    .preview_container{
+        margin-top: 58rem;
+    }
+
+    .header_item{
+        font-size: 2.1111rem;
+    }
+
+    .header_item_active{
+        margin-right: 2.0417rem !important;
+    }
+
+    .preview_item{
+        font-size: 7rem !important;
+    }
+
+    .preview_title_container{
+        margin-left: -5px;
+    }
+
+    .header{
+        padding-right: 5px;
+    }
+
+    .preview_description{
+        max-width: none;
+        font-size: 2.2811rem;
+    }
+
+    button{
+        font-size: 2.5611rem;
+    }
+
+
+    .advantages_card_value{
+        flex-direction: column !important;
+    }
+    .icon_bg_value{
+        order: 1 !important;
+    }
+
+    .advantages_card_text_value{
+        width: 100%;
+        order: 2 !important;
+    }
+
+    .situations_img_container{
+        margin-bottom: -0.7111rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .img_bg_top{
+        background-image: none !important;
+        overflow: hidden;
+    }
+
+    .preview_img_container{
+        display: block;
+        margin-left: 19.8333rem;
+    }
+
+    .main_title{
+        font-size: 3.4135rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    * {
+        font-size: 1.875vw;
+    }
+    .top{
+        height: 100%;
+    }
+
+    .container{
+        padding-bottom: 0;
+    }
+
+    .advantages_card_text{
+        max-width: 12.667rem;
+    }
+
+    .img_bg_top{
+        background-size: auto !important;
+        background-position: 125% 25%;
+    }
+
+    .our_advantages{
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: normal;
+        max-width: 60.00rem;
+        margin-top: 5rem;
+    }
+
+    .our_advantages{
+        margin-top: 4.9778rem !important;
+        margin-bottom: 1.4222rem;
+        bottom: 0;
+    }
+
+    .advantages_card{
+        max-width: 21.97rem;
+        width: 29.3056rem;
+        margin-right: 1.0417rem;
+        margin-bottom: 1.3889rem;
+    }
+
+    .advantages_card:nth-child(2){
+        margin-right: 0;
+    }
+
+    .icon_bg{
+        margin-top: 0;
+    }
+
+    .main_content_container{
+        margin-top: 2.8445rem;
+    }
+
+    .situations_container{
+        flex-direction: column;
+    }
+
+    .situations_card{
+        max-width: none;
+        justify-content: space-between;
+    }
+    .situations_card:first-child{
+        margin-bottom: 2.2756rem;
+        margin-right: 0;
+    }
+
+    .robo_img{
+        margin-right: 0;
+    }
+
+    .research_img{
+        margin-right: 0;
+    }
+
+    .situations_card{
+        padding-left: 2.2756rem;
+        padding-top: 3.5557rem;
+    }
+
+    .situations_title{
+        font-size: 2.2756rem ;
+        max-width: none;
+    }
+
+    .situations_description{
+        font-size: 1.8489rem;
+        max-width: 23rem;
+    }
+
+    .research_img{
+        width: 20.1962rem;
+        height: 27.0232rem;
+    }
+
+    .robo_img{
+        width: 20.1962rem;
+        height: 27.0232rem;
+    }
+
+    .main_title_desktop{
+        display: none;
+    }
+
+    .main_title_mob{
+        display: block;
+    }
+
+    .situations_img_container{
+        margin-bottom: -0.8333rem;
+    }
+
+    .value_card{
+        background: #FFFFFF;
+        box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    .value_container{
+        flex-direction: column;
+        margin-top: 2.2756rem;
+    }
+
+    .advantages_card_value{
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .icon_bg_value{
+        order: 2;
+    }
+
+    .advantages_card_text_value{
+        order: 1;
+    }
+
+    .advantages_card{
+        background: #FFFFFF;
+        box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+    }
+
+    .our_advantages_value{
+        margin-top: 0;
+    }
+
+    .main_title_v{
+        text-align: center;
+    }
+
+    .situations_description_value{
+        font-size: 1.9912rem;
+        max-width: none;
+        text-align: center;
+    }
+
+    .wide_tablet{
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .top{
+        border-radius: 0;
+    }
+
+    .img_bg_top{
+        background-image: url("img/top-mob.png");
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    *{
+        font-size: 14.4px;
+    }
+}
